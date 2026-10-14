@@ -1,5 +1,5 @@
 ARG PG_VERSION=15
-FROM registry.redhat.io/rhel9/postgresql-${PG_VERSION}:latest@sha256:689960f104c43cb81a87a05392e38d487e9baeac655629b1ddb9f0efe3cb376b AS final
+FROM registry.redhat.io/rhel9/postgresql-${PG_VERSION}:latest@sha256:a30e89f17c0c9b061c129b1a62b30ad3544baad7407c791058e0452604041ab5 AS final
 
 USER root
 
